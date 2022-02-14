@@ -22,7 +22,7 @@ jobs:
           MAIL_PORT_SENDER: ${{secrets.MAIL_PORT_SENDER}}
           MAIL_RECIPIENT: ${{secrets.MAIL_RECIPIENT}}
         with:
-          who-to-greet: '若川'
+          who-to-greet: '听枫'
       # Use the output from the `hello` step
       - name: 点此查看输出结果，比如：签到结果
         run: | 
